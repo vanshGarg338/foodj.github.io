@@ -1,0 +1,138 @@
+*{margin: 0; padding: 0; box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;}
+a{
+	text-decoration: none;
+
+}
+li{
+	list-style: none;
+}
+p{
+	font-size:20px;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient( rgba(165, 42, 42, 0.3),rgba(165, 42, 42, 0.3)), url('../images/food1.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);*/
+	position: relative;
+}
+
+.header:before {
+content: "";
+position: absolute;
+top: 0%;
+bottom: 0%;
+left: 0%;
+right: 0%;
+opacity: 0.1;
+z-index: -1;
+background: linear-gradient(to right, #e52d27 10%, #3ccdbb 30%, #b31217 100%);
+
+}
+.navbar:before{
+content: "";
+position: absolute;
+top: 0%;
+bottom: 0%;
+left: 0%;
+right: 0%;
+opacity: 0.3;
+z-index: -1;
+background: linear-gradient(to right, #e52d27 10%, #3ccdbb 30%, #b31217 100%);
+}
+.nav-item a{
+color: #fff!important;
+font-weight: bold;
+
+}
+.header-section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+
+}
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+
+}
+.center-div h1{
+text-shadow: 6px 5px 6px black;
+}
+.center-div p{
+text-shadow: 6px 5px 6px green;
+font-size: 25px;
+}
+.header-button a{
+border: 1px solid #fff;
+border-radius: 100px;
+margin: 0 5px;
+padding: 12px 35px;
+outline: none;
+color: #fff;
+font-size: : 1rem;
+font-weight: 400;
+line-height: 1.4;
+text-align: center;
+
+}
+.header-button a:hover{
+	color: #50d160;
+	background: #fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.nav-item :hover{
+	border: 1px solid #fff;
+border-radius: 100px;
+margin: 0 5px;
+transition: 0.5s;
+}
+.extradiv:hover{
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+transform: translateY(-20px)
+}
+/********************happy clint******************/
+.happy-clint
+{
+	margin: 100px 0;
+
+}
+.navbar-toggler-icon{
+	color: black;
+}
+
+
+
+.about-us{
+font-size: 20px;
+font-family: Sitka Display;
+}
+/*****************footer**************/
+.footer_style{
+	background: #2c2c54;
+	color: white;
+	font-size: 15px;
+font-family: Sitka Display;
+	}
+	.decoration{
+		text-decoration: none;
+		color: white;
+	}
+.decoration:hover{
+	text-decoration: none;
+		color: #4bcffa;
+
+}
